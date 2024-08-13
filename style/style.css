@@ -7,6 +7,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 500vh;
 }
 
 :root{
@@ -16,57 +21,68 @@
     --font2: "Gideon Roman", serif;
 }
 
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+
 header{
-    background-color: #000;
-    text-decoration: none;
+    width: 100vh;
+    padding: 40px 4%;
     text-align: center;
-    padding: 10px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: .6s;
 }
 
-li{
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
     display: inline-block;
-    margin: 20px;
-    color: #fff;
-    font-variant: small-caps;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .8em;
+    margin: 0 30px;
 }
 
-a{
+header ul li a{
     text-decoration: none;
-}
-
-section.image{
-    background: #000000 url('../imagens/image01.jpeg') fixed;
-    background-size: cover;
-    min-height: 100vh;
-    text-align: center;
-    padding-top: 250px;
     color: #fff;
-}
-
-section.image > h1{
-    font-size: 4em;
-    font-family: var(--font1);
-}
-
-section.image > h2{
-    padding-bottom: 30px;
-    font-family: var(--font2);
-    font-weight: normal;
-}
-
-section.image > p{
-    padding-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-variant: small-caps;
     font-size: .9em;
 }
 
-p.time{
-    padding: 30px;
+.banner{
+    height: 100vh;
+    background: url('../imagens/img02.jpg') center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 300px;
 }
 
-section.normal{
-    background-color: var(--color1);
+.banner h1{
+    padding: 20px;
+    font-weight: normal;
 }
+.banner h2{
+    padding: 30px;
+    font-size: 5em;
+    font-family: var(--font1);
+}
+
+.banner p{
+    padding: 20px;
+}
+
+header.rolagem{
+    background-color: var(--color1);
+    padding: 30px;
+    width: 100vw;
+}
+
