@@ -59,7 +59,7 @@ header ul li a{
 
 .banner{
     height: 100vh;
-    background: url('../imagens/img02.jpg') center no-repeat;
+    background: url('../imagens/image01.jpg') center no-repeat;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -86,3 +86,45 @@ header.rolagem{
     width: 100vw;
 }
 
+.btn-buy-ticket{
+    border: none;
+    font-size: 1em;
+    padding: 15px 40px;
+    margin-top: 30px;
+    font-variant: small-caps;
+}
+
+.btn-buy-ticket:hover{
+    border: 1px solid #fff;
+    background-color: rgb(48, 48, 48);
+    color: #fff;
+    transition: .5s all;
+}
+
+.normal{
+    min-height: 500px;
+    background-color: var(--color1);
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.normal h1{
+    font-size: 1.3em;
+    font-family: var(--font2);
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.normal h2{
+    font-size: 2.7em;
+    font-family: var(--font1);
+}
+
+.normal p{
+    margin: auto;
+    text-size-adjust: inherit;
+    width: 400px;
+    text-align: center;
+    padding-top: 40px;
+}
