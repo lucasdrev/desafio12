@@ -128,3 +128,16 @@ header.rolagem{
     text-align: center;
     padding-top: 40px;
 }
+
+.img1{
+    background: no-repeat;
+    margin: auto;
+    margin-left: 400px;
+    padding-top: 100px;
+}
+
+.img2{
+    margin: auto;
+    margin-left: 400px;
+    padding-top: 100px
+}
